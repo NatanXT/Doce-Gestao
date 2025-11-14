@@ -5,7 +5,7 @@ export default function Dashboard() {
     <div className="dashboard">
       {/* TÍTULO E SUBTÍTULO */}
       <header className="dashboard-header">
-        <h1>Roscas & Custos</h1>
+        <h1>Doce Gestão</h1>
         <p>
           Controle simples e inteligente para seus custos, receitas e lucros.
         </p>
