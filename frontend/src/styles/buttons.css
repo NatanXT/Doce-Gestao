@@ -1,0 +1,30 @@
+button {
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 12px 20px;
+  border: none;
+  font-family: var(--font-primary);
+}
+
+/* BOTÃO LARANJA */
+.btn-orange {
+  background-color: var(--orange);
+  color: #fff;
+  transition: 0.2s;
+}
+
+.btn-orange:hover {
+  filter: brightness(0.92);
+}
+
+/* BOTÃO VERDE */
+.btn-green {
+  background-color: var(--green);
+  color: #fff;
+  transition: 0.2s;
+}
+
+.btn-green:hover {
+  filter: brightness(0.92);
+}

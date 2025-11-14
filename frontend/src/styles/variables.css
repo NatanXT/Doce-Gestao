@@ -1,0 +1,18 @@
+:root {
+  --bg: #FFF4E6;
+  --text-primary: #3B2C24;
+  --title: #8B5E3C;
+
+  --orange: #E8A766;
+  --green: #7CBF9E;
+
+  --card-orange: #fde4c2;
+  --card-blue: #dce9f6;
+  --card-green: #d8f2d8;
+
+  --radius: 12px;
+  --shadow: 0 2px 6px rgba(0,0,0,0.08);
+
+  --font-primary: 'Poppins', sans-serif;
+  --font-numbers: 'Montserrat', sans-serif;
+}

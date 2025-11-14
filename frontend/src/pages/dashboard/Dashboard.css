@@ -1,0 +1,91 @@
+.dashboard {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+/* TÍTULO */
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.dashboard-header h1 {
+  font-size: 36px;
+  color: var(--title);
+  margin-bottom: 6px;
+}
+
+.dashboard-header p {
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+/* BOTÕES DE AÇÃO */
+.dashboard-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+/* INDICADORES */
+.indicadores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 40px;
+}
+
+.indicador-card {
+  text-align: center;
+  background: #fff;
+  padding: 26px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.indicador-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.valor {
+  font-family: var(--font-numbers);
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.card-orange {
+  background: var(--card-orange);
+}
+
+.card-blue {
+  background: var(--card-blue);
+}
+
+.card-green {
+  background: var(--card-green);
+}
+
+/* GRID DO MENU */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.menu-card {
+  background: #fff;
+  padding: 22px;
+  text-align: center;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.menu-card h4 {
+  color: var(--title);
+  font-size: 20px;
+  margin-bottom: 4px;
+}
